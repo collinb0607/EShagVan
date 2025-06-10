@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eShagVan - Contacto</title>
+    <link rel="icon" type="../image/png" href="../images/favicon.png">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+</head>
+<script src="../js/script.js"></script>
+<body>
+    <header>
+        <nav>
+            <button id="menu-toggle" class="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div id="ham-nav-menu" class="nav-links">
+                <ul>
+                    <li><a href="index.html" class="ham-nav-button">Inicio</a></li>
+                    <li><a href="about.html" class="ham-nav-button">Nosotros</a></li>
+                    <li><a href="build.html" class="ham-nav-button">La Van</a></li>
+                    <li><a href="gallery.html" class="ham-nav-button">Galería</a></li>
+                    <li><a href="blog.html" class="ham-nav-button">Blog</a></li>
+                    <li><a href="contact.html" class="ham-nav-button">Contacto</a></li>
+                    <li style="margin: 80px 0"><a href="../contact.html" id="ham-lang-toggle">English<i class="fas fa-globe"></i></a></li>
+                </ul>
+            </div>
+            <ul>
+                <li style="margin-right: 0.1px;"><a href="index.html"><img src="../images/logo2.png" alt="E-ShagVan Logo" style="height: 2.1em; width: 3.5em; vertical-align: middle; border-radius: 10px;"></a></li>
+                <div class="nav-menu">
+                    <li><a href="index.html" class="nav-button">Inicio</a></li>
+                    <li><a href="about.html" class="nav-button">Nosotros</a></li>
+                    <li><a href="build.html" class="nav-button">La Van</a></li>
+                    <li><a href="blog.html" class="nav-button">Blog</a></li>
+                    <li><a href="contact.html" class="nav-button">Contacto</a></li>
+                    <li><a href="../contact.html" id="lang-toggle">English<i class="fas fa-globe"></i></a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="construction"><i class="fas fa-info-circle"></i> Nos disculpamos por nuestra apariencia. Este sitio web está bajo construcción.</div>
+        <section id="hero">
+            <h1>Contáctanos</h1>
+            <p>¿Tiene preguntas o quiere contactarnos? ¡Rellene el siguente formulario y nosotros nos pondremos en contacto lo más pronto posible!</p>
+            <hr style="border: 1px solid black; width: 90%; margin: 20px auto;">
+            <div id="socials" style="text-align: center;">
+                <a href="https://youtube.com/@EShagVan/" class="social-button" style="margin-right: 6vw;"><img src="../images/social_icons/youtube.png" alt="youtube icon" class="social-button-image"></a>
+                <a href="https://patreon.com/EShagVan/" class="social-button"><img src="../images/social_icons/patreon.png" alt="patreon icon" class="social-button-image"></a>
+                <a href="https://tiktok.com/@EShagVan/" class="social-button"><img src="../images/social_icons/tiktok.png" alt="tiktok icon" class="social-button-image"></a>
+                <a href="https://instagram.com/EShagVan/" class="social-button"><img src="../images/social_icons/instagram.png" alt="instagram icon" class="social-button-image"></a>
+                <a href="https://threads.net/@EShagVan/" class="social-button"><img src="../images/social_icons/threads.png" alt="threads icon" class="social-button-image"></a>
+                <a href="https://facebook.com/people/E-ShagVan/61572228317675/" class="social-button"><img src="../images/social_icons/facebook.png" alt="facebook icon" class="social-button-image"></a>
+                <a href="https://x.com/EShagVan/" class="social-button"><img src="../images/social_icons/x.png" alt="x icon" class="social-button-image"></a>
+            </div>
+            <form action="https://formspree.io/f/xeoegwqz" method="POST">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="10" required></textarea>
+            <button id="submit" type="submit" class="button">Enviar mensaje</button>
+            </form>
+
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 eShagVan. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

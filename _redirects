@@ -1,0 +1,27 @@
+/es/* /es/404.html 404
+/* /404.html 404
+
+
+/youtube https://www.youtube.com/@EShagVan 301
+https://youtube.eshagvan.com/* https://www.youtube.com/@EShagVan 301
+
+/x https://x.com/EShagVan 301
+/twitter https://x.com/EShagVan 301
+https://x.eshagvan.com/* https://x.com/EShagVan 301
+
+/threads https://www.threads.net/@eshagvan 301
+https://threads.eshagvan.com/* https://www.threads.net/@eshagvan 301
+
+/facebook https://www.facebook.com/people/E-ShagVan/61572228317675/ 301
+https://facebook.eshagvan.com/* https://www.facebook.com/people/E-ShagVan/61572228317675/ 301
+
+/instagram https://www.instagram.com/eshagvan/ 301
+https://instagram.eshagvan.com/* https://www.instagram.com/eshagvan/ 301
+
+/tiktok https://www.tiktok.com/@eshagvan 301
+https://tiktok.eshagvan.com/* https://www.tiktok.com/@eshagvan 301
+
+/patreon https://www.patreon.com/eshagvan 301
+https://patreon.eshagvan.com/* https://www.patreon.com/eshagvan 301
+/donate https://www.patreon.com/eshagvan 301
+https://donate.eshagvan.com/* https://www.patreon.com/eshagvan 301
